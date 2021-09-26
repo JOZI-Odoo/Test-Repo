@@ -1,0 +1,7 @@
+echo "# Test-Repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M V2
+git remote add origin https://github.com/JOZI-Odoo/Test-Repo.git
+git push -u origin V2
